@@ -37,10 +37,10 @@ menu:
 		printf(" Pilih : ");
 		scanf("%d",&pilih);
 		
-		switch(pilih){
-			case 1 :
-				system("cls");
-				tampak_depan();
+switch(pilih){
+		case 1 :
+			system("cls");
+			tampak_depan();
 		case1:		
 				printf(" Pilih Jumlah Saldo Yang Ingin Anda Ambil : \n");
 				printf(" 1. Rp. 50.000\n");
@@ -84,19 +84,17 @@ menu:
                 printf("Transaksi Gagal\n");
                 printf("Saldo anda tidak mencukupi\n\n");
                 
-            }
-            else
-            {
+}else{
                 system("cls");
                 tampak_depan();
                 printf("Transaksi Berhasil!\n");
                 jumlah_uang = jumlah_uang - keluar;
                 printf("Sisa saldo anda,\n%d\n\n", jumlah_uang);
                 
-            }
+}
             break;
 				
-			 case 2:
+case 2:
             system("cls");
             tampak_depan();
             printf("Masukan nomor rekening yang anda tuju,\n");
@@ -122,7 +120,7 @@ menu:
             }
             break;
        
-        case 3:
+ case 3:
             system("cls");
             tampak_depan();
             printf("Saldo anda adalah,\n%d\n\n", jumlah_uang);
@@ -172,7 +170,7 @@ end:
 	   	
 				
 				
-		}else{
+}else{
 		 system("cls");
         tampak_depan();
         attempts++;
@@ -184,8 +182,8 @@ end:
                 return 0;
             }
         
-		}
-	}
+}
+}
 
 	
 
