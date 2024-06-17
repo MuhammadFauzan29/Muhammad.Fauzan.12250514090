@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//https://www.youtube.com/watch?v=-KrJDlv2mHA&t=821s
+//lihat dari tutorial link diatas 
+
 void tampak_depan(){
 	printf("====================================================\n");
     printf("=====                                          =====\n");
